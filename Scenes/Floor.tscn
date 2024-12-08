@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c72ccvnqjuax"]
+
+[ext_resource type="PlaneMesh" uid="uid://dno63mfgbul0p" path="res://Textures/Floor.tres" id="1_qf0uj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8uebr"]
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0534, 0, 0)
+mesh = ExtResource("1_qf0uj")
+surface_material_override/0 = SubResource("StandardMaterial3D_8uebr")
